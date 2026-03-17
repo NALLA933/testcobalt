@@ -52,11 +52,11 @@ var (
 
 	SpotifyClientID = getString(
 		"SPOTIFY_CLIENT_ID",
-		"40b91facfdee4c6e9456906613e7ca6b",
+		"7918258b92ec47cc8e8246fb8fcdcbf2",
 	)
 	SpotifyClientSecret = getString(
 		"SPOTIFY_CLIENT_SECRET",
-		"e8d7847ccdf545b9ac5051d2c456c5d2",
+		"37cef30cc0184fa5bf1180caa432bfd5",
 	)
 
 	FallenAPIURL = getString("FALLEN_API_URL", "https://beta.fallenapi.fun")
@@ -69,8 +69,8 @@ var (
 	DurationLimit  = int(getInt64("DURATION_LIMIT", 4200)) // in seconds
 	LeaveOnDemoted = getBool("LEAVE_ON_DEMOTED", false)
 	QueueLimit     = int(getInt64("QUEUE_LIMIT", 7))
-	SupportChat    = getString("SUPPORT_CHAT", "https://t.me/TheTeamVk")
-	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/TheTeamVivek")
+	SupportChat    = getString("SUPPORT_CHAT", "https://t.me/THE_DRAGON_SUPPORT")
+	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/Senpai_Updates")
 	StartTime      = time.Now()
 	CookiesLink    = getString("COOKIES_LINK")
 	SetCmds        = getBool("SET_CMDS", false)
