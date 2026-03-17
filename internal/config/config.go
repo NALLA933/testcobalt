@@ -68,7 +68,7 @@ var (
 	DefaultLang    = getString("DEFAULT_LANG", "en")
 	DurationLimit  = int(getInt64("DURATION_LIMIT", 4200)) // in seconds
 	LeaveOnDemoted = getBool("LEAVE_ON_DEMOTED", true)
-	QueueLimit     = int(getInt64("QUEUE_LIMIT", 7))
+	QueueLimit     = int(getInt64("QUEUE_LIMIT", 25))
 	SupportChat    = getString("SUPPORT_CHAT", "https://t.me/THE_DRAGON_SUPPORT")
 	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/Senpai_Updates")
 	StartTime      = time.Now()
